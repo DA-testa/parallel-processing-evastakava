@@ -23,10 +23,10 @@ def main():
     n, m = map(int, input().split())
     data = list(map(int, input().split()))
 
-    # TODO: create the function
+
     result = parallel_processing(n,m,data)
     
-    # TODO: print out the results, each pair in it's own line
+    
     for r in result:
         print(r[0], r[1])
 
